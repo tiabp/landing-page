@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER STYLES STARTS HERE*/
+.header {
+    height: 100vh;
+    background-image: url(../images/desk.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.logo-container img{
+    position: absolute;
+    width: 50px;
+    position: fixed;
+    top: 45px;
+    left: 45px;
+}
+
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 75px;
+    color: #c47830;
+}
+
+.heading-subsection {
+    letter-spacing: 5px;
+}
+
+.scrolling {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scrolling a, a:visited {
+    color: #c47830;
+}
+
+.icon-display {
+    text-align: center;
+}
+
+.icon-display i{
+    font-size: 50px;
+}
+/* HEADER STYLES ENDS HERE*/
+
+/* CV STYLES STARTS HERE*/
+
+.cv-container {
+    height: 100vh;
+    max-width: 1400px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left-container {
+    position: relative;
+}
+
+.professional-photo img {
+    position:absolute;
+    top: 100px;
+    left: 10%;
+    border-radius: 50%;
+    width: 300px;
+}
+
+.professional-info {
+    position: absolute;
+    top: 450px;
+    left: 150px;
+}
+
+.professional-info p {
+    top: 170px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-align: right;
+}
+
+.about-me-blurb {
+    position: absolute;
+    top: 650px;
+    left: 385px;
+    transform: translate(-100%, 0);
+    max-width: 265px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c47830;
+}
+
+.skills-content {
+    position: absolute;
+    top: 800px;
+    left: 115px;
+}
+
+.right-container {
+    position: relative;
+}
+
+.header-name {
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 45px;
+}
+
+.work-experience {
+    position: absolute;
+    text-align: right;
+    top: 210px;
+    right: 100px;
+}
+
+.company-title {
+    margin: 30px 0 0 0;
+    font-size: 18px;
+}
+
+.section-title {
+    margin-top: 20px;
+}
+
+.work-experience-content p {
+    line-height: 28px;
+}
+
+.work-experience-content a, a:visited {
+    text-decoration: none;
+    color: #c47830;
+    display: block;
+}
+
+.work-experience-content a:hover {
+    color: #596d3d ;
+}
+
+.bottom-spacing {
+    height: 100px;
+}
+
+/* CV STYLES ENDS HERE*/
