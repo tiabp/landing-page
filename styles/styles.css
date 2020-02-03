@@ -63,9 +63,11 @@
 /* CV STYLES STARTS HERE*/
 
 .cv-container {
-    height: 100vh;
-    max-width: 1400px;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
     font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
 .left-container {
@@ -112,6 +114,14 @@
     left: 115px;
 }
 
+.skills-content p {
+    padding: 5px 0;
+}
+
+.skills-indent {
+    margin-left: 15px;
+}
+
 .right-container {
     position: relative;
 }
@@ -122,7 +132,7 @@
     right: 100px;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .work-experience {
@@ -160,3 +170,38 @@
 }
 
 /* CV STYLES ENDS HERE*/
+
+/* FOOTER STARTS HERE */
+
+.social-media-container {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 1350px;
+}
+
+.social-media-container-content {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.social-media-icons ul{
+    width: 100%;
+    top: 1600px;
+    left:50%;
+    font-size: 50px;
+    line-height: 0;
+    list-style-type: none;
+}
+
+.social-media-icons li {
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.social-media-icons a {
+    color: #c47830;
+    font-weight: 200;
+}
